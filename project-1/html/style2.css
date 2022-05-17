@@ -1,0 +1,80 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    
+    margin: 0px;
+    padding: 0px;
+    background: url('../html/img/forest.jpeg');
+    /* height: 4544px; */
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;  
+}
+.left img{
+    width:75px;
+    /* filter: invert(100%)  */
+    /* above line is used to convert black color of photo to white */
+}
+.left div{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto; 
+    /* border: 2px solid green; */
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;  
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    color: white;
+    display: inline-block;
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar li a{
+    color: rgb(6, 218, 255);
+    text-decoration: none;
+    padding: 34px 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:chartreuse;
+}
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px; 
+    background-color: pink;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: chartreuse;
+}
+.container{
+    border: 2px solid;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    width:33%;
+    border-radius: 2px;
+    position: absolute;
+    top: 150px;
+}
